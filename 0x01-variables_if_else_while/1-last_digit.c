@@ -3,19 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Prints a text according number
  *
- * Description: Prints a number and it's last digit alone with whether its
- * last digit is 0, greater than 5, or less than 6 and not 0.
- * Return: 0
+ * Return: Always (Success)
  */
 int main(void)
 {
-int n, lastd;
+ int n, lastd;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-lastd = n % 10;
+ srand(time(0));
+ n = rand() - RAND_MAX / 2;
+ lastd = n % 10;
  
  if (lastd > 5)
  {
