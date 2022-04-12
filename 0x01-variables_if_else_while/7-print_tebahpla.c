@@ -7,9 +7,13 @@
  */
 int main(void)
 {
-char c;
-for (c = 'z'; c >= 'a'; ++c)
-putchar('a' + c);
+char alphabet;
+  
+for (alphabet = 122 ; alphabet >= 97; alphabet--)
+{
+putchar(alphabet);
+}
+  
 putchar('\n');
 
 return (0);
