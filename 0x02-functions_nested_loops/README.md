@@ -1,1 +1,1 @@
-This dexcribe each script
+This describe each script
