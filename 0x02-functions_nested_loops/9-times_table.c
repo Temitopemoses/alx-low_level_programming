@@ -13,7 +13,7 @@ _putchar('0');
 
 for (nult = 0; nult <= 9; nult++)
 {
-_putchar(',');
+_putchar('.');
 _putchar(' ');
 
 prod = num * nult;
