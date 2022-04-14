@@ -13,18 +13,19 @@ _putchar('0');
 
 for (nult = 0; nult <= 9; nult++)
 {
-_putchar('.');
+_putchar(',');
 _putchar(' ');
 
 prod = num * nult;
 
 if (prod <= 9)
 _putchar(' ');
-else
+else if
 _putchar((prod / 10) + '0');
 
 _putchar((prod % 10) + '0');
 }
+else
 _putchar('\n');
 }
 }
