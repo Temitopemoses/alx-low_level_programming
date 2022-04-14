@@ -24,7 +24,7 @@ _putchar((prod % 10) + '0');
 }
 else if (prod < 10 && nult != 0)
 {
-_putchar(' ')
+_putchar(' ');
 _putchar((prod % 10) + '0');
 }
 else
