@@ -20,14 +20,14 @@ prod = num * nult;
 
 if (prod <= 9)
 _putchar(' ');
-else if
-{
+else 
+
 _putchar((prod / 10) + '0');
 
 _putchar((prod % 10) + '0');
 }
-else
+
 _putchar('\n');
 }
 }
-}
+
