@@ -14,7 +14,6 @@ for (nult = 0; nult <= 9; nult++)
 prod = (num * nult);
 if (prod != 0)
 {
-else 
 _putchar(',');
 _putchar(' ');
 }
