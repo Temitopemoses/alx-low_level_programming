@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print_triangle - prints triangle
  * @size: limit
  * 
  * Return: Always 0.
  */
+
 void print_trinagle(int size)
 {
 int i, j;
