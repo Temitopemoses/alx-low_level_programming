@@ -3,7 +3,6 @@
 /**
  * print_triangle - prints triangle
  * @size: limit
- * 
  * Return: void
  */
 
