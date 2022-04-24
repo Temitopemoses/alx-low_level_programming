@@ -1,1 +1,1 @@
-This describe each script
+This describes each script
