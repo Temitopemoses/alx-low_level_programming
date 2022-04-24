@@ -7,6 +7,7 @@
  * @n:length int
  * Return:char
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
